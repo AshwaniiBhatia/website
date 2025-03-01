@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwani University - Exam Portal</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .hero button:hover {
+            background-color: #45a049;
+        }
+
+        /* Exam Schedule Section */
+        .exam-schedule {
+            padding: 40px;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        .exam-schedule h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Contact Us Section */
+        .contact-us {
+            padding: 40px;
+            background-color: #e2e2e2;
+            text-align: center;
+        }
+
+        .contact-us h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-us p {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Ashwani University</h1>
+        <p>Examination Portal</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#exam-schedule">Exam Schedule</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to Ashwani University Examination Portal</h2>
+        <p>Stay updated with the latest exam schedules, important notifications, and results.</p>
+        <button onclick="window.location.href='#exam-schedule'">View Exam Schedule</button>
+    </section>
+
+    <!-- Exam Schedule Section -->
+    <section class="exam-schedule" id="exam-schedule">
+        <h2>Upcoming Exam Schedule</h2>
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Mathematics 101</td>
+                <td>March 10, 2025</td>
+                <td>9:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Physics 102</td>
+                <td>March 12, 2025</td>
+                <td>9:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Chemistry 103</td>
+                <td>March 15, 2025</td>
+                <td>9:00 AM - 12:00 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please contact the Examination Department:</p>
+        <p>Email: <a href="mailto:exam@ashwaniuniversity.com">exam@ashwaniuniversity.com</a></p>
+        <p>Phone: +6299858888</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Ashwani University. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
